@@ -1,0 +1,52 @@
+# Tomorrow Night Blue
+
+# Basic status bar colors
+set -g status-style fg=#7285b7,bg=#003f8e
+
+# Left side of status bar
+set -g status-left-style fg=colour15,bg=colour0
+set -g status-left "#[fg=#ffffff,bg=#7285b7,nobold] $#S #[fg=colour15,bg=colour0,bold]"
+
+# Right status block:
+set -g status-right-style fg=colour15,bg=colour0
+set -g status-right "#[fg=#ffffff,bg=#7285b7,nobold] W#I P#P #H "
+
+# Window status
+set -g window-status-format " #I:#W#F "
+set -g window-status-current-format "#[fg=#ffffff,bg=#7285b7,nobold] #I:#W#F "
+
+# Current window status
+set -g window-status-current-style fg=colour0,bg=colour6
+
+# Window with activity status
+# fg and bg are flipped here due to a bug in tmux
+set -g window-status-activity-style fg=colour8,bg=colour6
+
+# Window separator
+set -g window-status-separator ""
+
+# Window status alignment
+set -g status-justify centre
+
+# Pane border
+set -g pane-border-style fg=#00346e,bg=default
+
+# Active pane border
+set -g pane-active-border-style fg=#7285b7,bg=default
+
+# Pane number indicator
+set -g display-panes-colour colour0
+set -g display-panes-active-colour colour6
+
+# Clock mode
+set -g clock-mode-colour "#7285b7"
+
+# Message
+set -g message-style fg=colour0,bg=colour6
+
+# Command message
+set -g message-command-style fg=colour0,bg=colour6
+
+# Mode
+set -g mode-style fg=colour0,bg=#7285b7
+
