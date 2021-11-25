@@ -1,0 +1,4 @@
+# Unison preferences file
+ignore = Name ppn/services/containers/compose/portainer/portainer_data
+ignore = Name ppn/services/containers/compose/rss/database
+
