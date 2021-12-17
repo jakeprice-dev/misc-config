@@ -1,6 +1,7 @@
 # Unison preferences file
+ignore = Name .DS_Store
 ignore = Name bible/public
 ignore = Name log/public
 ignore = Name ppn/services/containers/compose/portainer/portainer_data
 ignore = Name ppn/services/containers/compose/rss/database
-
+ignore = Name ppn/services/containers/compose/uptime-kuma/uptime-kuma
