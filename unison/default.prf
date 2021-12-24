@@ -5,3 +5,4 @@ ignore = Name log/public
 ignore = Name ppn/services/containers/compose/portainer/portainer_data
 ignore = Name ppn/services/containers/compose/miniflux/database
 ignore = Name ppn/services/containers/compose/uptime-kuma/uptime-kuma
+ignore = Name ppn/services/containers/compose/speedtest-tracker/config
