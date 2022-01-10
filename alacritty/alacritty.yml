@@ -1,0 +1,53 @@
+env:
+  TERM: xterm-256color
+
+window:
+  padding:
+    x: 10
+    y: 10
+  dynamic_title: true
+  gtk_theme_variant: dark
+
+font:
+  normal: 
+    family: Ubuntu Mono
+  size: 14.0
+draw_bold_text_with_bright_colors: true
+
+colors:
+
+  primary:
+    background: "#002451"
+    foreground: "#ffffff"
+
+  cursor:
+    text: "#002451"
+    cursor: "#c6ff00"
+
+  # Normal colors
+  normal:
+    black:   '#100e23'
+    red:     '#ff9da4'
+    green:   '#d1f1a9'
+    yellow:  '#ffeead'
+    blue:    '#bbdaff'
+    magenta: '#ebbbff'
+    cyan:    '#99ffff'
+    white:   '#ffffff'
+
+  # Bright colors
+  bright:
+    black:   '#565575'
+    red:     '#ff9da4'
+    green:   '#d1f1a9'
+    yellow:  '#ffeead'
+    blue:    '#bbdaff'
+    magenta: '#ebbbff'
+    cyan:    '#99ffff'
+    white:   '#ffffff'
+      
+cursor:
+  style:
+    shape: block
+    blinking: Always
+
