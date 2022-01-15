@@ -1,0 +1,38 @@
+{
+  "timeStamp": 1642273902717,
+  "version": "1.40.8",
+  "userSettings": {
+    "importedLists": []
+  },
+  "selectedFilterLists": [
+    "user-filters",
+    "ublock-filters",
+    "ublock-badware",
+    "ublock-privacy",
+    "ublock-abuse",
+    "ublock-unbreak",
+    "easylist",
+    "easyprivacy",
+    "urlhaus-1",
+    "adguard-annoyance",
+    "fanboy-cookiemonster",
+    "fanboy-annoyance",
+    "ublock-annoyances",
+    "plowe-0"
+  ],
+  "hiddenSettings": {},
+  "whitelist": [
+    "about-scheme",
+    "chrome-extension-scheme",
+    "chrome-scheme",
+    "edge-scheme",
+    "moz-extension-scheme",
+    "opera-scheme",
+    "vivaldi-scheme",
+    "wyciwyg-scheme"
+  ],
+  "dynamicFilteringString": "behind-the-scene * * noop\nbehind-the-scene * inline-script noop\nbehind-the-scene * 1p-script noop\nbehind-the-scene * 3p-script noop\nbehind-the-scene * 3p-frame noop\nbehind-the-scene * image noop\nbehind-the-scene * 3p noop",
+  "urlFilteringString": "",
+  "hostnameSwitchesString": "no-large-media: behind-the-scene false\nno-csp-reports: * true",
+  "userFilters": "! 2022-01-15 https://how-to.fandom.com\nhow-to.fandom.com##.wikia-bar-anon.wikia-bar\nhow-to.fandom.com##.mcf-wrapper\n"
+}
