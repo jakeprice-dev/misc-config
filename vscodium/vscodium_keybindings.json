@@ -1,0 +1,55 @@
+// Place your key bindings in this file to override the defaults
+[
+    {
+        "key": "ctrl+e",
+        "command": "-workbench.action.quickOpen"
+    },
+    {
+        "key": "ctrl+c",
+        "command": "-workbench.action.terminal.copySelection",
+        "when": "terminalFocus && terminalTextSelected"
+    },
+    {
+        "key": "ctrl+v",
+        "command": "-workbench.action.terminal.paste",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "ctrl+b oem_comma",
+        "command": "workbench.action.terminal.rename"
+    },
+    {
+        "key": "ctrl+b n",
+        "command": "workbench.action.terminal.focusNext"
+    },
+    {
+        "key": "ctrl+b p",
+        "command": "workbench.action.terminal.focusPrevious"
+    },
+    {
+        "key": "ctrl+b k",
+        "command": "workbench.action.navigateUp"
+    },
+    {
+        "key": "ctrl+b j",
+        "command": "workbench.action.navigateDown"
+    },
+    {
+        "key": "ctrl+b h",
+        "command": "workbench.action.navigateLeft"
+    },
+    {
+        "key": "ctrl+b l",
+        "command": "workbench.action.navigateRight"
+    },
+    {
+        "key": "shift+alt+c",
+        "command": "copyFilePath",
+        "when": "editorFocus"
+    },
+    {
+        "key": "shift+alt+c",
+        "command": "-copyFilePath",
+        "when": "!editorFocus"
+    }
+]

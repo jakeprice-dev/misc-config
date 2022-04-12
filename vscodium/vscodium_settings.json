@@ -1,0 +1,67 @@
+{
+    "debug.console.fontFamily": "Ubuntu Mono",
+    "debug.console.fontSize": 16,
+    "editor.cursorStyle": "line",
+    "editor.fontFamily": "Ubuntu Mono",
+    "editor.fontLigatures": false,
+    "editor.fontSize": 16,
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "editor.showFoldingControls": "always",
+    "editor.wordSeparators": ".`~!@#$%^&*()=+[{]}\\|;:'\",<>/?",
+    "editor.wordWrap": "on",
+    "explorer.compactFolders": false,
+    "files.eol": "\n",
+    "git.showPushSuccessNotification": true,
+    "html.format.indentHandlebars": true,
+    "html.format.indentInnerHtml": true,
+    "markdown.preview.breaks": true,
+    "markdown.preview.scrollEditorWithPreview": false,
+    "markdown.preview.scrollPreviewWithEditor": false,
+    "search.collapseResults": "alwaysCollapse",
+    "security.workspace.trust.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.fontFamily": "Ubuntu Mono",
+    "terminal.integrated.fontSize": 16,
+    "terminal.integrated.rightClickBehavior": "default",
+    "terminal.integrated.scrollback": 10000,
+    "window.titleBarStyle": "custom",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Tomorrow Night Blue",
+    "workbench.editor.highlightModifiedTabs": true,
+    "workbench.list.openMode": "doubleClick",
+    "workbench.startupEditor": "newUntitledFile",
+    "[markdown]": {
+        "editor.wordWrapColumn": 79,
+        "editor.rulers": [
+            79
+        ],
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.quickSuggestions": false
+    },
+    "[python]": {
+        "editor.rulers": [
+            79
+        ]
+    },
+    "[git-commit]": {
+        "editor.wordWrapColumn": 72,
+        "editor.rulers": [
+            72
+        ],
+        "editor.wordWrap": "wordWrapColumn",
+        "editor.quickSuggestions": false
+    },
+    "[yaml]": {
+        "editor.detectIndentation": false,
+        "editor.insertSpaces": true,
+        "editor.tabSize": 2,
+        "editor.autoIndent": "none",
+        "editor.quickSuggestions": {
+            "other": true,
+            "comments": false,
+            "strings": true
+        }
+    }
+}
